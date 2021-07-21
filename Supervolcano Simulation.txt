@@ -22,17 +22,3 @@ tpt.eltransition.lava.tempLowType=144
 tpt.el.lava.heat=50
 tpt.el.lava.loss=0.60
 elements.property(elements.DEFAULT_PT_LAVA, "HotAir" , 0.01)
-
-tpt.el.watr.weight=100
-tpt.el.watr.advection=0.1
-
-tpt.el.wtrv.weight=99
-tpt.el.wtrv.advection=0.2
-elements.property(elements.DEFAULT_PT_WTRV, "HotAir" , 0.0000)
-
-tpt.el.cnct.advection=0
-tpt.el.cnct.heat=0
-tpt.el.cnct.weight=100
-tpt.el.cnct.collision=0.0
-tpt.eltransition.cnct.tempHighValue=8000
-elements.property(elements.DEFAULT_PT_CNCT, "HeatConduct" , 0)
